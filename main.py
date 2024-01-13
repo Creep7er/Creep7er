@@ -16,8 +16,8 @@ def main():
 
     t.gen_text("", 1, count=20)
     t.toggle_show_cursor(False)
-    t.gen_text("H3X_OS Modular BIOS v1.0.11", 1)
-    t.gen_text("Copyright (C) 2023, \x1b[31mH3xLabs LLC\x1b[0m", 2)
+    t.gen_text("Popug OS Modular BIOS v1.0.11", 1)
+    t.gen_text("Copyright (C) 2023, \x1b[31mPopugonet\x1b[0m", 2)
     t.gen_text("\x1b[94mGitHub Profile ReadMe Terminal, Rev 1011\x1b[0m", 4)
     t.gen_text("Krypton(tm) GIFCPU - 250Hz", 6)
     t.gen_text(
@@ -43,7 +43,7 @@ def main():
     t.gen_text("\x1b[96m", 1, count=0, contin=True)  # buffer to be removed
     t.set_font(FONT_FILE_LOGO, 66)
     # t.toggle_show_cursor(True)
-    os_logo_text = "H3X OS"
+    os_logo_text = "Popug OS"
     mid_row = (t.num_rows + 1) // 2
     mid_col = (t.num_cols - len(os_logo_text) + 1) // 2
     effect_lines = gifos.effects.text_scramble_effect_lines(
@@ -57,17 +57,17 @@ def main():
     t.clear_frame()
     t.clone_frame(5)
     t.toggle_show_cursor(False)
-    t.gen_text("\x1b[93mH3X OS v1.0.11 (tty1)\x1b[0m", 1, count=5)
+    t.gen_text("\x1b[93mPopug OS v1.0.12 (tty1)\x1b[0m", 1, count=5)
     t.gen_text("login: ", 3, count=5)
     t.toggle_show_cursor(True)
-    t.gen_typing_text("h3xcode", 3, contin=True)
+    t.gen_typing_text("Creep7er", 3, contin=True)
     t.gen_text("", 4, count=5)
     t.toggle_show_cursor(False)
     t.gen_text("password: ", 4, count=5)
     t.toggle_show_cursor(True)
-    t.gen_typing_text("************", 4, contin=True)
+    t.gen_typing_text("***************", 4, contin=True)
     t.toggle_show_cursor(False)
-    time_now = datetime.now(ZoneInfo("Europe/Kyiv")).strftime(
+    time_now = datetime.now(ZoneInfo("Asia/Tashkent")).strftime(
         "%a %b %d %I:%M:%S %p %Z %Y"
     )
     t.gen_text(f"Last login: {time_now} on tty1", 6)
@@ -79,22 +79,22 @@ def main():
     t.delete_row(7, prompt_col)  # simulate syntax highlighting
     t.gen_text("\x1b[92mclear\x1b[0m", 7, count=3, contin=True)
 
-    git_user_details = gifos.utils.fetch_github_stats("ih3xcode")
-    user_age = gifos.utils.calc_age(16, 3, 2005)
+    git_user_details = gifos.utils.fetch_github_stats("Creep7er")
+    user_age = gifos.utils.calc_age(17, 6, 2007)
     t.clear_frame()
     top_languages = [lang[0] for lang in git_user_details.languages_sorted]
     user_details_lines = f"""
-    \x1b[30;101mih3xcode@GitHub\x1b[0m
+    \x1b[30;101mCreep7er@GitHub\x1b[0m
     --------------
-    \x1b[96mOS:     \x1b[93mFedora Silverblue/Gentoo Linux, Android 14\x1b[0m
-    \x1b[96mHost:   \x1b[93mNational Aviation University  \x1b[94m#NAU\x1b[0m
-    \x1b[96mKernel: \x1b[93mCybersecurity & Software Engineering  \x1b[94m#FCSE\x1b[0m
+    \x1b[96mOS:     \x1b[93mFedora/Arch Linux, Android 11\x1b[0m
+    \x1b[96mHost:   \x1b[93mPopugia  \x1b[94m#PopugPower\x1b[0m
+    \x1b[96mKernel: \x1b[93mAndroid & Software Development  \x1b[94m\x1b[0m
     \x1b[96mUptime: \x1b[93m{user_age.years} years, {user_age.months} months, {user_age.days} days\x1b[0m
-    \x1b[96mIDE:    \x1b[93mVSCode\x1b[0m
+    \x1b[96mIDE:    \x1b[93mVSCode/Neovim\x1b[0m
 
     \x1b[30;101mContact:\x1b[0m
     --------------
-    \x1b[96mTelegram:      \x1b[93m@h3xcode\x1b[0m
+    \x1b[96mTelegram:      \x1b[93m@Creep7er\x1b[0m
 
     \x1b[30;101mGitHub Stats:\x1b[0m
     --------------
@@ -113,7 +113,7 @@ def main():
     t.gen_typing_text("\x1b[91mfetch.s", 1, contin=True)
     t.delete_row(1, prompt_col)
     t.gen_text("\x1b[92mfetch.sh\x1b[0m", 1, contin=True)
-    t.gen_typing_text(" -u ih3xcode", 1, contin=True)
+    t.gen_typing_text(" -u Creep7er", 1, contin=True)
 
     t.set_font(FONT_FILE_MONA, 16, 0)
     t.toggle_show_cursor(False)
