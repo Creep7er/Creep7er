@@ -24,7 +24,7 @@ jobs:
         run: |
           sudo apt update && sudo apt install -y ffmpeg
           python -m pip install --upgrade pip
-          pip install git+https://github.com/x0rzavi/github-readme-terminal.git@main
+          pip install git+https://github.com/Creep7er/grt.git@main
 
       - name: Run script
         run: python main.py
@@ -37,5 +37,5 @@ jobs:
       - name: Update readme
         run: |
           git add README.md
-          git -c "user.name=Jarvis" -c "user.email=Jarvis@github.com" commit -m "Automatically updated on $(TZ='Asia/Tashkent' date)"
+          git -c "user.name=creep7er" -c "user.email=creep7er@github.com" commit -m "Automatically updated on $(TZ='Asia/Tashkent' date)"
           git push
