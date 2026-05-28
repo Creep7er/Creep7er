@@ -1,9 +1,9 @@
 <div align="justify">
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/mrW7BBFQ/output-gif.gif">
-    <source media="(prefers-color-scheme: light)" srcset="https://i.ibb.co/mrW7BBFQ/output-gif.gif">
-    <img alt="POPUGOS" src="https://i.ibb.co/mrW7BBFQ/output-gif.gif">
+    <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/hx8PcYC2/output-gif.gif">
+    <source media="(prefers-color-scheme: light)" srcset="https://i.ibb.co/hx8PcYC2/output-gif.gif">
+    <img alt="POPUGOS" src="https://i.ibb.co/hx8PcYC2/output-gif.gif">
 </picture>
 
-<sub><i>Generated automatically using [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal) on Wed May 27 07:32:33 AM +05 2026</i></sub>
+<sub><i>Generated automatically using [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal) on Thu May 28 07:08:01 AM +05 2026</i></sub>
 </div>
