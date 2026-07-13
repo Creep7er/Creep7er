@@ -90,7 +90,7 @@ def main():
     --------------
     \x1b[96mOS:     \x1b[93mFedora/Arch Linux, Android 11\x1b[0m
     \x1b[96mHost:   \x1b[93mPopugia  \x1b[94m#PopugPower\x1b[0m
-    \x1b[96mKernel: \x1b[93mAndroid & Software Development  \x1b[94m\x1b[0m
+    \x1b[96mKernel: \x1b[93mTG Bots & Software Development  \x1b[94m\x1b[0m
     \x1b[96mUptime: \x1b[93m{user_age.years} years, {user_age.months} months, {user_age.days} days\x1b[0m
     \x1b[96mIDE:    \x1b[93mVSCode/Neovim\x1b[0m
 
